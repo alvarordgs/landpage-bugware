@@ -27,20 +27,26 @@ section.secao-2 {
 
 header.historia {
     padding: 20px;
-    font-family: var(--main-font);
-
     width: 50%;
 }
 
+header.historia h1 {
+    font-family: var(--main-font);
+    font-size: 48px;
+}
+
 header.historia p {
-    font-size: 14px;
-    color: rgb(94, 94, 94);
-    font-weight: 500;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 25px;
+    
+    color: rgb(143, 143, 143);
+    
 }
 
 footer.desc {
     display: flex;
-    font-family: var(--main-font);
+    font-family: Arial;
 }
 
 .box-desc {
@@ -55,17 +61,65 @@ footer.desc {
 }
 
 .box-desc h3 {
+    font-size: 17px;
     margin: 20px 0;
 } 
 
 .box-desc p {
-    font-size: 14px;
-    color: rgb(94, 94, 94);
-    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Arial;
+    color: rgb(143, 143, 143);
 }
 
 .val p{
-    margin: 3px 0;
+    margin: 0;
+}
+
+section.secao-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 60vh;
+    background: no-repeat center/cover url(assets/635703-1.jpg);
+
+    color: #fff;
+    z-index: 1;
+}
+
+.dark {
+    background: #000;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+section.secao-3 h1 {
+    font-family: var(--main-font);
+    font-size: 40px;
+    margin: 0;
+    z-index: 3;
+}
+
+section.secao-3 p {
+    font-family: var(--main-font);
+    font-size: 15px;
+    letter-spacing: 4px;
+    margin: 20px 0;
+    z-index: 3;
+}
+
+.yoda-foto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.3);
+    z-index: 3;
 }
 
 
