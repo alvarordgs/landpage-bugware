@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+:root {
+    --main-font: 'Montserrat';
+}
+
 body{
     /*Tirando os valores padrões do css*/
     margin: 0;
@@ -9,32 +15,64 @@ body{
     width: 100%;
 }
 
-#img-contato{
-    margin: none;
-    width: 100%;
-}
-
-#contato-img{
-    border: 1px solid red;
-}
-
-#informacoes{
+section.secao-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    font-family: var(--main-font);
+    text-align: center;
 }
-    #historia{
-        width: 50%;
-        display: flex;
-        flex-direction: column;
+
+header.historia {
+    padding: 20px;
+    font-family: var(--main-font);
+
+    width: 50%;
+}
+
+header.historia p {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    font-weight: 500;
+}
+
+footer.desc {
+    display: flex;
+    font-family: var(--main-font);
+}
+
+.box-desc {
+    width: 280px;
+    padding: 20px;
+    margin: 0 10px;
+}
+
+.box-desc i {
+    font-size: 30px;
+    color: #73fbd2;
+}
+
+.box-desc h3 {
+    margin: 20px 0;
+} 
+
+.box-desc p {
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+    font-weight: 500;
+}
+
+.val p{
+    margin: 3px 0;
+}
+
+
+
+@media(max-width:800px){
+    footer.desc{
+        flex-wrap: wrap;
         justify-content: center;
-    }
-
-    #historia h1{
-        width: 50%;
-        align-self: center;
-    }
-
-    #historia p{
-        text-align: justify;
-    }
+    } 
+}
