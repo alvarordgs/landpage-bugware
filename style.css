@@ -180,5 +180,20 @@ section.secao-4 {
     footer.desc{
         flex-wrap: wrap;
         justify-content: center;
-    } 
+    }
+
+    section.secao-3 {
+        text-align: center;
+    }
+
+    .secao-4 footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: center;
+    }
 }
+
