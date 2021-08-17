@@ -1,0 +1,40 @@
+body{
+    /*Tirando os valores padrões do css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-header{
+    width: 100%;
+}
+
+#img-contato{
+    margin: none;
+    width: 100%;
+}
+
+#contato-img{
+    border: 1px solid red;
+}
+
+#informacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    #historia{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #historia h1{
+        width: 50%;
+        align-self: center;
+    }
+
+    #historia p{
+        text-align: justify;
+    }
